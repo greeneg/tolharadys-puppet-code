@@ -1,0 +1,33 @@
+{
+    "name": "greeneg-prefer_ipv4",
+    "version": "0.0.1",
+    "author": "greeneg",
+    "summary": "A module to configure a host to prefer IPv4 over v6",
+    "license": "Apache-2.0",
+    "source": "./",
+    "dependencies": [],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "SLES",
+            "operatingsystemrelease": ["12", "15"]
+        },
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": ["10", "11"]
+        },
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": ["20.04"]
+        },
+        {
+            "operatingsystem": "Rocky",
+            "operatingsystemrelease": ["8"]
+        }
+    ],
+    "requirements": [
+        {
+            "name": "puppet",
+            "version_requirement": ">= 6.0.0 < 8.0.0"
+        }
+    ]
+}
