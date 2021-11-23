@@ -7,7 +7,7 @@
 class linux::services {
   $services_to_enable = [
     'acpid',
-    'crond',
+    'cron',
     'gpm',
     'haveged',
     'acct'

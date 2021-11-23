@@ -24,7 +24,7 @@ class linux::install {
     'pam_apparmor',
     'patterns-devel-base-devel_basis',
     'patterns-devel-C-C++-devel_C_C++',
-    'patterns-devel_perl',
+    'patterns-devel-perl',
     'patterns-devel-base-devel_rpm_build',
     'haveged',
     'acct',
