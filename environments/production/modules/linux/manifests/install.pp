@@ -14,7 +14,6 @@ class linux::install {
     'kernel-default',
     'attr',
     'acl',
-    'atd',
     'nano',
     'man-pages',
     'coreutils',
