@@ -1,12 +1,12 @@
 {
   "name": "greeneg-atd",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": "greeneg",
-  "summary": "",
+  "summary": "A module for managing the At Daemon on Linux hosts",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/greeneg/tolharadys-puppet-code",
   "dependencies": [
-    "greeneg-linux_os"
+    "greeneg-linux"
   ],
   "operatingsystem_support": [
     {

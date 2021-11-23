@@ -12,6 +12,6 @@ class atd::install {
 
   package { 'atd':
     ensure  => latest,
-    require => Class[ linux_os ]
+    require => Class[ linux ]
   }
 }
