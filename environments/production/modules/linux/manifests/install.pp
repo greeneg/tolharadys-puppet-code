@@ -17,32 +17,27 @@ class linux::install {
     'nano',
     'man-pages',
     'coreutils',
-    'rfc',
     'fhs',
     'samba-doc',
     'ntp-doc',
     'apparmor-docs',
     'pam_apparmor',
-    'patterns-openSUSE-devel_basis',
-    'patterns-openSUSE-devel_C_C++',
-    'patterns-openSUSE-devel_perl',
-    'patterns-openSUSE-devel_rpm_build',
+    'patterns-devel-base-devel_basis',
+    'patterns-devel-C-C++-devel_C_C++',
+    'patterns-devel_perl',
+    'patterns-devel-base-devel_rpm_build',
     'haveged',
     'acct',
     'cronie-anacron',
-    'prelink',
     'terminfo',
     'gpm',
     'screen',
-    'vlock',
     'acpi',
     'acpid',
     'killerd',
     'gpart',
     'nfs4-acl-tools',
     'xfsdump',
-    'kdump',
-    'yast2-kdump',
     'keyutils',
     'procinfo',
     'command-not-found',
@@ -83,7 +78,9 @@ class linux::install {
     'expect',
     'logrotate',
   ]
-  package { $needed_packages_suse:
-    ensure  => latest
+  if $::operatingsystem == openSUSE {
+    package { $needed_packages_suse:
+      ensure  => latest
+    }
   }
 }
