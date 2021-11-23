@@ -12,7 +12,7 @@ class linux::services {
     'haveged',
     'acct'
   ]
-  Services {
+  Service {
     provider => systemd
   }
   service { $services_to_enable:
