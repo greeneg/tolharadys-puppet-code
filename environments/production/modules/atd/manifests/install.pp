@@ -10,7 +10,7 @@ class atd::install {
     provider      => zypper
   }
 
-  package { 'atd':
+  package { 'at':
     ensure  => latest,
     require => Class[ linux ]
   }
