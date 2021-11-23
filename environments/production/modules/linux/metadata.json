@@ -2,9 +2,9 @@
   "name": "greeneg-linux",
   "version": "0.1.0",
   "author": "greeneg",
-  "summary": "",
+  "summary": "A module for defining a basic set of tools and services for Linux operating systems",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/greeneg/tolharadys-puppet-code",
   "dependencies": [
 
   ],

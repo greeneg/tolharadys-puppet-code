@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "source": "https://github.com/greeneg/tolharadys-puppet-code",
   "dependencies": [
-    "greeneg-linux"
+    {"name": "greeneg-linux", "version_requirement": ">= 0.0.1"}
   ],
   "operatingsystem_support": [
     {
