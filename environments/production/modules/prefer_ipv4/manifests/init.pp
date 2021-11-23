@@ -1,14 +1,9 @@
-# prefer_ipv4
+# @summary A short summary of the purpose of this class
 #
-# Main class. Includes all the subclasses for the module
+# A description of what this class does
 #
-# @summary
-#   This module sets a host up to prefer IPv4 instead of IPv6
-#
-# Unfortunately, most hosts in my network only have ipv4 addresses. To allow
-# networking to work correctly for address resolution, force the hosts to
-# prefer IPv4 routing and networking over v6.
-
+# @example
+#   include prefer_ipv4
 class prefer_ipv4 {
   include prefer_ipv4::files
 }

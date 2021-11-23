@@ -1,10 +1,9 @@
-# prefer_ipv4::files
+# @summary A short summary of the purpose of this class
 #
-# @summary
-#   This class manages the files dropped into place on Linux hosts
+# A description of what this class does
 #
-# This class installs and manages the /etc/gai.conf file.
-
+# @example
+#   include prefer_ipv4::files
 class prefer_ipv4::files {
   file { '/etc/gai.conf':
     source => 'puppet:///modules/prefer_ipv4/gai.conf',
