@@ -10,8 +10,8 @@ class atd::service {
   }
 
   service { 'atd':
-    ensure  => enabled,
-    running => true,
+    ensure  => running,
+    enable  => true,
     require => Class[ atd::install ]
   }
 }
